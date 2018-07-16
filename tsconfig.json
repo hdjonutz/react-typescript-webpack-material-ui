@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    "jsx": "react",
+    "module": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": false,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "outDir": "build",
+    "lib": [
+      "dom",
+      "es2015",
+      "es5",
+      "es6",
+      "es7"
+    ],
+    "baseUrl": "src",
+    "emitDecoratorMetadata": true
+  },
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ],
+  "types" : ["material-ui", "react"],
+  "include": [
+    "./src/**/*",
+    "./typings/**/*"
+  ],
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**"
+  ]
+}
